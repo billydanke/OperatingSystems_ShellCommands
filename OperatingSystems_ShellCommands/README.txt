@@ -28,4 +28,4 @@ and no other available commands in the program are able to modify or delete data
 to be said about the ABILITY of software programs to run shell commands. Even without running as administrator, there
 would benothing stopping a bad actor from writing code to begin deleting as many files in the user's C: drive as possible.
 Even deletion confirmation messages can be overridden with an extra flag when calling the command. For this reason it is
-important for the user to know that the software they are running is safe.
+important for the user to know that the software they are running is safe. 
