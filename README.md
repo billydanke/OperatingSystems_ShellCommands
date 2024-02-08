@@ -1,4 +1,12 @@
-﻿----------------------
+-----------------------
+      Quick Note
+-----------------------
+
+Hey, when I uploaded the assignment I uploaded the GitHub link as well as a zip file in case the link didn't work. I made a
+change to the repo afterward, but I did not resubmit the zip file. Please note that the zip file is slightly out of date
+and cannot output the concatenation of two files. Otherwise, everything in there should be fine. Thanks!
+ 
+ ----------------------
     Functionality
 ----------------------
 
