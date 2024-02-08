@@ -1,4 +1,13 @@
 ﻿----------------------
+     Quick Note
+----------------------
+
+Hey, I just wanted to note that when I submitted the assignment on blackboard, I have since made a change to the repo.
+I did not resubmit the assignment on blackboard, so the zip file included with the submission is slightly out of date.
+The code and executable in the zip will not be able to concatinate and display two files together. It has the same
+functionality otherwise.
+
+----------------------
     Functionality
 ----------------------
 
