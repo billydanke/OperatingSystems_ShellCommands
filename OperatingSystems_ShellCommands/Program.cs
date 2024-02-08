@@ -103,11 +103,29 @@ namespace OperatingSystems_ShellCommands
                 }
                 else if(commandOption == "5") // Display file contents using type
                 {
-                    // Prompt the user for a target directory
-                    Console.Write("Enter filepath: ");
-                    string filePath = Console.ReadLine();
+                    Console.Write("Select 1 or 2 files (enter 1 or 2): ");
+                    string pathCount = Console.ReadLine();
 
-                    command = $"type {filePath}";
+                    if (pathCount == "1")
+                    {
+                        // Prompt the user for a target directory
+                        Console.Write("Enter filepath: ");
+                        string filePath = Console.ReadLine();
+
+                        command = $"type {filePath}";
+                    }
+                    else
+                    {
+                        // Prompt the user for a target directory
+                        Console.Write("Enter filepath 1: ");
+                        string filePath1 = Console.ReadLine();
+
+                        // Prompt the user for a target directory
+                        Console.Write("Enter filepath 2: ");
+                        string filePath2 = Console.ReadLine();
+
+                        command = $"type {filePath1} && type {filePath2}";
+                    }
                 }
                 else if(commandOption == "6") // List filetree using tree
                 {
